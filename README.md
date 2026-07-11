@@ -20,8 +20,7 @@ Python, pandas, yfinance, BeautifulSoup, NLTK (VADER), Hugging Face Transformers
 
 1. Install dependencies (first cell of the notebook handles this)
 2. Run all cells top to bottom
-3. Note: the news-fetching step queries Google News RSS across ~20 date chunks per ticker, so it takes a few minutes — don't kill it early
-4. FinBERT will run much faster on GPU if you have one available (check with `torch.cuda.is_available()`)
+3. FinBERT will run much faster on GPU if you have one available (check with `torch.cuda.is_available()`)
 
 ## Results
 
